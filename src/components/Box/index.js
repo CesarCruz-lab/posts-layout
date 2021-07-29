@@ -1,7 +1,11 @@
 import './style.css';
 
 export function Box(props) {
+	const { style } = props;
+	
 	return (
-		<div className="box">{props.children}</div>
+		<div className="box" style={style}>
+			{props.children}
+		</div>
 	);
 }

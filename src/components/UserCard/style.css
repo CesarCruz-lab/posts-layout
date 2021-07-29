@@ -1,0 +1,102 @@
+:root {
+	--userCard-primary: #417B88;
+	--userCard-secondary: #2C4C68;
+	--thumb-size: 80%;
+}
+
+
+/* user card */
+
+.userCard {
+	position: relative;
+	width: 300px;
+	padding: 124px 36px 24px;
+	border-radius: 8px;
+	background: var(--theme-main);
+	overflow: hidden;
+}
+
+.userCard-thumb {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 168px;
+	background: var(--userCard-primary);
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.userCard-thumb-img {
+	height: var(--thumb-size);
+	filter: invert(1);
+	opacity: 0.2;
+	transform: translateY(-10%);
+}
+
+
+/* info */
+
+.userCard-info {
+	position: relative;
+	z-index: 2;
+	margin-bottom: 16px;
+	line-height: 22px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.userCard-info-avatar {
+	margin-bottom: 16px;
+	border: 2px solid var(--theme-main);
+	box-shadow: 0 0 0 4px var(--userCard-secondary);
+}
+
+.userCard-info-name {
+	color: var(--userCard-primary);
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+
+.userCard-info-nickname {
+	color: var(--theme-grey-3);
+	font-weight: bold;
+}
+
+.userCard-info-job {
+	font-size: 16px;
+	color: var(--theme-grey-3);
+	font-family: 'Roboto', Sans-Serif;
+}
+
+
+/* more */
+
+.userCard-more {
+	width: 100%;
+	color: var(--theme-grey-1);
+	
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	gap: 4px;
+}
+
+.userCard-more span,
+.userCard-more-detail {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.userCard-more-detail {
+	width: 100%;
+	justify-content: space-between;
+}

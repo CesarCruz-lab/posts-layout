@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root {
+	font-size: 16px;
+	--theme-body: #EDEDED;
+	--theme-main: #FAFAFA;
+	--theme-grey-1: #818181;
+	--theme-grey-2: #6A7477;
+	--theme-grey-3: #4D575A;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: var(--theme-body);
+	font-family: 'Open Sans', Sans-Serif;
+}
