@@ -2,8 +2,15 @@
 
 :root {
 	font-size: 16px;
+	--border-radius: 16px;
+	
 	--theme-body: #EDEDED;
 	--theme-main: #FAFAFA;
+	
+	--theme-primary: #417B88;
+	--theme-secondary: #3C6C78;
+	
+	--theme-grey-0: #E0E0E0;
 	--theme-grey-1: #818181;
 	--theme-grey-2: #6A7477;
 	--theme-grey-3: #4D575A;

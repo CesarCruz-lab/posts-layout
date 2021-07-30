@@ -1,0 +1,30 @@
+.postaction {
+	width: 100%;
+	margin-top: 4px;
+	padding: 4px;
+	border-top: 1px solid var(--theme-grey-0);
+	border-bottom: 1px solid var(--theme-grey-0);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 12px;
+	align-items: center;
+}
+
+.postaction button.MuiButtonBase-root {
+	color: var(--theme-grey-3);
+	text-transform: capitalize;
+}
+
+.postaction-icon {
+	margin-right: 4px;
+}
+
+.postaction-icon path {
+	fill: transparent;
+	stroke: var(--theme-grey-3);
+}
+
+.liked path {
+	fill: var(--theme-grey-3) !important;
+	/* stroke: var(--theme-grey-3); */
+}

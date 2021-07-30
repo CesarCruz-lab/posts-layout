@@ -1,0 +1,72 @@
+.postuser {
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.postuser-box {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* --- detail --- */
+
+.postuser-detail {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-template-rows: repeat(2, auto);
+	grid-template-areas:
+		'username username'
+		'created posttype'
+	;
+	grid-column-gap: 8px;
+	align-items: center;
+}
+
+.postuser-detail span {
+	min-width: max-content;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.postuser-avatar {
+	grid-area: avatar;
+}
+
+.postuser-detail-username {
+	grid-area: username;
+	color: var(--theme-secondary);
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.postuser-detail-created {
+	grid-area: created;
+	color: var(--theme-grey-2);
+}
+
+.postuser-detail-type {
+	grid-area: posttype;
+}
+
+.postuser-detail-created,
+.postuser-detail-type {
+	color: var(--theme-grey-2);
+	font-weight: 600;
+}
+
+
+/* --- selector --- */
+
+.postuser-selector {
+	border-radius: var(--border-radius);
+}
+
+div.MuiInput-underline {
+	text-decoration: none;
+	border: none;
+}

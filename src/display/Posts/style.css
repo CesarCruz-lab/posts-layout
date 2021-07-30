@@ -1,0 +1,11 @@
+.posts {
+	margin: 16px 0;
+}
+
+.posts-item {
+	list-style: none;
+}
+
+.posts-item:nth-child(n + 2) {
+	margin-top: 24px;
+}

@@ -1,0 +1,34 @@
+
+.postcontent-message {
+	color: var(--theme-grey-2);
+	font-size: 1rem;
+}
+
+.postcontent-detail {
+	width: 100%;
+	margin-top: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--theme-grey-1);
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.postcontent-detail div {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.postcontent-detail-like {
+	padding: 4px 0;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.postcontent-detail-like svg path {
+	fill: var(--theme-main);
+	stroke: var(--theme-grey-2);
+}

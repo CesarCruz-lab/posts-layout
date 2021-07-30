@@ -1,7 +1,8 @@
-import Avatar from '@material-ui/core/Avatar';
 import PinDropIcon from '@material-ui/icons/PinDrop';
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
+
+import { AvatarStyled } from 'surfaces/AvatarStyled';
 
 import './style.css';
 
@@ -16,11 +17,9 @@ export function UserCard(props) {
 		workplace
 	} = props.info;
 	
-	const AvatarStyle = {
+	const avatarCustomStyle = {
 		width: '112px',
 		height: '112px',
-		background: '#E0E0E0',
-		color: '#2C4C68',
 		fontWeight: 700,
 		fontSize: '2.4rem'
 	};
@@ -35,9 +34,7 @@ export function UserCard(props) {
 				/>
 			</header>
 			<main className="userCard-info">
-				<Avatar className="userCard-info-avatar" src={img} style={AvatarStyle}>
-					{username[0]}
-				</Avatar>
+				<AvatarStyled data={{ username, img }} css={avatarCustomStyle} />
 				
 				<span className="userCard-info-name">{username}</span>
 				<span className="userCard-info-nickname">{atSign}</span>

@@ -1,0 +1,6 @@
+.post {
+	width: 100%;
+	padding: 24px;
+	border-radius: var(--border-radius);
+	background: var(--theme-main);
+}
