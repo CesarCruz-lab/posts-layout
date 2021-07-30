@@ -28,7 +28,7 @@ Exemplo de uso:
 import Button from '@material-ui/core/Button';
 
 export function ButtonStyled(props) {
-	const { css, children, ...rest } = props;
+	const { css, ...rest } = props;
 	
 	const customStyle = {
 		padding: '4px 8px',
@@ -37,9 +37,7 @@ export function ButtonStyled(props) {
 	};
 	
 	return (
-		<Button style={customStyle} {...rest}>
-			{children}
-		</Button>
+		<Button style={customStyle} {...rest} />
 	);
 }
 
