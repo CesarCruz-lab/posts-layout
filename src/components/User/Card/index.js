@@ -25,27 +25,27 @@ export function UserCard(props) {
 	};
 	
 	return (
-		<div className="userCard">
-			<header className="userCard-thumb">
+		<div className="usercard">
+			<header className="usercard-thumb">
 				<img
-					className="userCard-thumb-img"
+					className="usercard-thumb-img"
 					src="/studing.png"
 					alt='user thumbnail'
 				/>
 			</header>
-			<main className="userCard-info">
+			<main className="usercard-info">
 				<AvatarStyled data={{ username, img }} css={avatarCustomStyle} />
 				
-				<span className="userCard-info-name">{username}</span>
-				<span className="userCard-info-nickname">{atSign}</span>
-				<span className="userCard-info-job">{job}</span>
+				<span className="usercard-info-name">{username}</span>
+				<span className="usercard-info-atsign">{atSign}</span>
+				<span className="usercard-info-job">{job}</span>
 			</main>
-			<footer className="userCard-more">
+			<footer className="usercard-more">
 				<span>
 					<PinDropIcon style={{ color: "#65C5FF" }} />
 					{location}
 				</span>
-				<div className="userCard-more-detail">
+				<div className="usercard-more-detail">
 					<span><WorkIcon /> {workplace}</span>
 					<span><SchoolIcon /> {university}</span>
 				</div>

@@ -5,7 +5,7 @@
 
 /* user card */
 
-.userCard {
+.usercard {
 	position: relative;
 	min-width: 300px;
 	height: max-content;
@@ -15,7 +15,7 @@
 	overflow: hidden;
 }
 
-.userCard-thumb {
+.usercard-thumb {
 	content: '';
 	position: absolute;
 	z-index: 1;
@@ -30,7 +30,7 @@
 	align-items: center;
 }
 
-.userCard-thumb-img {
+.usercard-thumb-img {
 	height: var(--thumb-size);
 	filter: invert(1);
 	opacity: 0.2;
@@ -40,7 +40,7 @@
 
 /* info */
 
-.userCard-info {
+.usercard-info {
 	position: relative;
 	z-index: 2;
 	margin-bottom: 16px;
@@ -51,19 +51,19 @@
 	align-items: center;
 }
 
-.userCard-info-name {
+.usercard-info-name {
 	color: var(--theme-primary);
 	font-size: 1.4rem;
 	font-weight: 700;
 }
 
 
-.userCard-info-nickname {
+.usercard-info-atsign {
 	color: var(--theme-grey-3);
 	font-weight: bold;
 }
 
-.userCard-info-job {
+.usercard-info-job {
 	font-size: 16px;
 	color: var(--theme-grey-3);
 	font-family: 'Roboto', Sans-Serif;
@@ -72,7 +72,7 @@
 
 /* more */
 
-.userCard-more {
+.usercard-more {
 	width: 100%;
 	color: var(--theme-grey-1);
 	
@@ -82,14 +82,14 @@
 	gap: 4px;
 }
 
-.userCard-more span,
-.userCard-more-detail {
+.usercard-more span,
+.usercard-more-detail {
 	display: flex;
 	align-items: center;
 	gap: 4px;
 }
 
-.userCard-more-detail {
+.usercard-more-detail {
 	width: 100%;
 	justify-content: space-between;
 }

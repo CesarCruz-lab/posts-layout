@@ -7,8 +7,8 @@ import './style.css';
 export function PostsDisplay() {
 	const postsData = [
 		{
-			username: 'Patricia Santos',
-			img: '',
+			username: 'Paulo Lucas',
+			img: '/icon-avatar.jpg',
 			created: 'há cerca de 8 horas',
 			privatePost: true,
 			liked: false,
@@ -18,8 +18,8 @@ export function PostsDisplay() {
 			message: 'Hello'
 		},
 		{
-			username: 'Patricia Santos',
-			img: '',
+			username: 'Paulo Lucas',
+			img: '/icon-avatar.jpg',
 			created: 'há 8 dias',
 			privatePost: false,
 			liked: false,

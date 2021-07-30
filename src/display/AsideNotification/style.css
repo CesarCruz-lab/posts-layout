@@ -1,0 +1,14 @@
+.asidenotify {
+	margin-right: 8px;
+}
+
+.asidenotify-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+
+.asidenotify-list-item {
+	list-style: none;
+}
