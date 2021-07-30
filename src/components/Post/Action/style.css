@@ -26,5 +26,4 @@
 
 .liked path {
 	fill: var(--theme-grey-3) !important;
-	/* stroke: var(--theme-grey-3); */
 }
